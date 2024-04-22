@@ -1,4 +1,9 @@
-// `app/dashboard/page.tsx` is the UI for the `/dashboard` URL
-export default function Page() {
-    return <h1>Hello, Dashboard Page!</h1>
-  }
+import React from 'react'
+
+function Dashboard() {
+  return (
+    <div>Dashboard</div>
+  )
+}
+
+export default Dashboard
