@@ -4,22 +4,25 @@ import Image from 'next/image'
 export default function Page() {
   return (
     <div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 h-screen">
               <div>
-                  <section className=" text-gray-600 font-mclaren h-screen flex items-center">
+                  <section className=" text-gray-600 font-mclaren h-3/4 w-5/6 flex items-center ps-40">
                         <div className="whitespace-pre-line">
-                          <h1>Shorten those complicated URLs</h1>
-                          <p>Use our paimon URL shortener and transform those complex URLs into something  better.</p>
+                          <article className="text-wrap">
+                              <h1 className="text-4xl text-black font-thin pb-5">Shorten those complicated URLs</h1>
+                              <p className="text-2xl pb-5">Use our paimon URL shortener and transform those complex URLs into something  better.</p>
+                              <button type="submit" className="text-white bg-yoimiya font-mclaren py-2 px-8 rounded-xl">Get Started!</button>
+                          </article>
                         </div>
                   </section>
               </div>
               
               <div>
-                <section className=" text-gray-600 font-mclaren h-screen flex items-center">
+                <section className=" text-gray-600 font-mclaren h-3/4 flex items-center ps-28">
                     <Image 
                       src="/img/yoimiya_title.png"
-                      width={200}
-                      height={200}
+                      width={300}
+                      height={300}
                       alt="Yoimiya main screen"
                     />
                 </section>
@@ -41,11 +44,6 @@ export default function Page() {
                     <button type="submit" className="text-white bg-yoimiya font-mclaren py-2 px-3 rounded-md">Shorten URL</button>
                 </div>
           </section>
-
-
-
-
-
       </div>
 
 
