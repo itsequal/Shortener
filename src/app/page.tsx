@@ -25,6 +25,7 @@ export default function Page() {
                       height={300}
                       alt="Yoimiya main screen"
                     />
+                    <p className="bubble thought font-mclaren">You will love this shortener!</p>
                 </section>
               </div>
       </div>
