@@ -11,5 +11,4 @@ public class ShortenerApplication {
 		SpringApplication.run(ShortenerApplication.class, args);
 	}
 
-
 }
