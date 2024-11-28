@@ -27,6 +27,10 @@
 hs_err_pid*
 replay_pid*
 
+#Properties
+resources/
+application.properties
+
 ### Maven ###
 target/
 pom.xml.tag
@@ -34,7 +38,6 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
-resources/application.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
